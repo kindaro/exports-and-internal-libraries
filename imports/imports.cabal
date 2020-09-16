@@ -1,0 +1,7 @@
+cabal-version:      2.4
+name:               imports
+version:            0.1.0.0
+
+Executable imports
+  Main-Is: Main.hs
+  Build-Depends: base, exports
