@@ -1,0 +1,13 @@
+cabal-version:      2.4
+name:               exports
+version:            0.1.0.0
+
+Library private
+    Hs-Source-Dirs: private
+    Build-Depends: base
+    Exposed-Modules: A.Internal
+
+Library
+    Hs-Source-Dirs: src
+    Exposed-Modules: A
+    Build-Depends: base, private
